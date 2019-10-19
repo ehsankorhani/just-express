@@ -1,0 +1,27 @@
+{
+  "name": "just-express",
+  "version": "1.0.0",
+  "description": "A tutorial on Express.js",
+  "main": "loginSite.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehsankorhani/just-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehsankorhani/just-express/issues"
+  },
+  "homepage": "https://github.com/ehsankorhani/just-express#readme"
+}
