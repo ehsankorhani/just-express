@@ -13,6 +13,8 @@ Section 8 - **passport-google-oauth20**
 
 Section 9 - **Authentication with Passport.js**
 
+Section 10 - **REST API**
+
 ### Reference
 [Just Express by Robert Bunch](https://practifitraining.udemy.com/course/just-express-with-a-bunch-of-node-and-http-in-detail)
 
