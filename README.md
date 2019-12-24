@@ -1,4 +1,4 @@
-### Section 6
+### Section 8
 
 ## Project - Building an API
 
