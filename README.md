@@ -122,8 +122,6 @@ app.get('/', (req, res) => {
 
 ---
 ### Reference
-[4 Maturity Levels of REST API Design](https://blog.restcase.com/4-maturity-levels-of-rest-api-design/)
-<br />
 [Express Guide](http://expressjs.com/en/guide/routing.html)
 <br />
 [How to create a REST API with Express.js in Node.js](https://www.robinwieruch.de/node-express-server-rest-api)
