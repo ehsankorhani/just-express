@@ -1,21 +1,9 @@
 ### Section 10
 
 ## REST API
-
-### Richardson Maturity Model
-
-- Level 0 - The Swamp of POX
-- Level 1 - Resources
-- Level 2 - Methods
-- Level 2.1 - HTTP headers
-- Level 2.2 - Query Parameters
-- Level 2.3 - Status Codes
-- Level 3 - Hypermedia Controls
-
 Use ```express.js``` to build a backend REST API. 
-
-### Express.js
-Express is a routing and middleware web framework.
+<br />
+Express.js is a routing and middleware web framework.
 
 **express.urlencoded**
 
@@ -30,11 +18,31 @@ app.use(express.urlencoded({ extended : false })) // does not support creating a
 <br />
 
 **req**
+<br />
+The req object represents the HTTP request.
+
+- ```req.ip```: => "127.0.0.1"
+- ```req.hostname```: => "example.com"
+- ```req.baseUrl```: the URL path on which a router instance was mounted
+- ```req.method```: GET, POST, PUT, and so on
+- ```req.body```: key-value pairs of data submitted in the request body
+- ```req.params```: GET /user/tj => req.params.name => "tj"
+- ```req.query```: GET /search?q=tobi+ferret => req.query.q => "tobi ferret"
+- ```req.get(field)```: req.get('Content-Type') => "text/plain"
+- ```req.param(name [, defaultValue])```: POST name=tobi => req.param('name') => "tobi"
 
 **res**
+<br />
+The res object represents the HTTP response
+
+- ```res.headersSent```: indicates if the app sent HTTP headers for the response
+- ```res.redirect([status,] path)```: redirects to the URL derived from the specified path
+- ```res.send([body])```: sends the HTTP response
+- ```res.sendStatus(statusCode)```: res.sendStatus(200) => equivalent to res.status(200).send('OK')
+- ```res.set(field [, value])```: res.set('Content-Type', 'text/plain')
 
 **next**
-
+<br />
 Calling this function invokes the next middleware function in the app.
 
 examples:
