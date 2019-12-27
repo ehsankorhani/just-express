@@ -1,7 +1,6 @@
 const router = require('express').Router()
 
 const users = require('./../models/users')
-const messages = require('./../models/messages')
 
 router.get('/', (req, res) => {
   //return res.send('GET HTTP method on users resource')
