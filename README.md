@@ -15,8 +15,6 @@ Section 9 - **Authentication with Passport.js**
 
 Section 10 - **REST API - Express**
 
-Section 11 - **REST API - Design**
-
 ---
 
 Find each project files in it's own branch.
